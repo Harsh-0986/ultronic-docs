@@ -119,7 +119,7 @@ export default function Home() {
           </div>
         </div>
 
-        {snapshot.docs.map((doc) => (
+        {snapshot?.docs.map((doc) => (
           <DocumentRow
             key={doc.id}
             id={doc.id}
