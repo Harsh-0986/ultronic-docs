@@ -14,15 +14,15 @@ function Header() {
         rounded={true}
         iconOnly={true}
         ripple="dark"
-        // className="hidden md:inline-flex h-20 w-20 border-0"
-        className="h-20 w-10 border-0"
+        className="hidden md:inline-flex h-20 w-20 border-0"
+        // className="h-20 w-10 border-0"
       >
         <Icon name="menu" size="10l" />
       </Button>
       <Icon name="description" size="4xl" color="gray" />
       <h1
-        //   className="hidden md:inline-flex ml-2 text-gray-700 text-2xl"
-        className="ml-2 text-gray-700 text-10l"
+        className="hidden md:inline-flex ml-2 text-gray-700 text-2xl"
+        // className="ml-2 text-gray-700 text-10l"
       >
         Documents
       </h1>
@@ -41,8 +41,8 @@ function Header() {
         rounded={true}
         iconOnly={true}
         ripple="dark"
-        className="ml-5 md:ml-20 h-20 w-10 border-0"
-        // className="hidden md:inline-flex ml-5 md:ml-20 h-20 w-10 border-0"
+        // className="ml-5 md:ml-20 h-20 w-10 border-0"
+        className="hidden lg:inline-flex ml-5 md:ml-20 h-20 w-10 border-0"
       >
         <Icon name="apps" size="10l" color="gray" />
       </Button>
