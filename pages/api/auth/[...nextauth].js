@@ -13,5 +13,7 @@ export default NextAuth({
     // ...add more providers here
   ],
 
+  theme: "dark",
+
   adapter: FirebaseAdapter(db),
 });
