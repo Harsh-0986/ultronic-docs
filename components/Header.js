@@ -21,7 +21,7 @@ function Header() {
       </Button>
       <Icon name="description" size="4xl" color="gray" />
       <h1
-        className="hidden md:inline-flex ml-2 text-gray-700 text-2xl"
+        className="hidden md:inline-flex ml-2 font-Gowun text-gray-700 text-2xl"
         // className="ml-2 text-gray-700 text-10l"
       >
         Documents

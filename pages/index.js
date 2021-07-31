@@ -82,7 +82,9 @@ export default function Home() {
       <section className="bg-[#F8F9FA] pb-10 px-10">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center justify-between py-6">
-            <h2 className="text-gray-700 text-md">Start a new document</h2>
+            <h2 className="text-gray-700 text-lg font-STIX">
+              Start a new document
+            </h2>
 
             <Button
               color="gray"
@@ -103,7 +105,7 @@ export default function Home() {
               />
             </div>
 
-            <p className="ml-2 mt-2 font-semibold text-sm text-gray-700 text-left">
+            <p className="ml-2 mt-2 font-semibold text-md text-gray-700 text-left font-STIX">
               Blank
             </p>
           </div>
