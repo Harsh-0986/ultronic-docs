@@ -13,6 +13,7 @@ import { db } from "../firebase";
 import firebase from "firebase";
 import { useCollectionOnce } from "react-firebase-hooks/firestore";
 import DocumentRow from "../components/DocumentRow";
+import Link from "next/link"
 
 export default function Home() {
   const [session] = useSession();
