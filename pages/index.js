@@ -131,7 +131,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <footer className="w-screen items-center justify-center fixed bottom-0 ">
+      <footer className="w-screen flex items-center justify-center fixed bottom-0 ">
         Made with 💛 by{" "}
         <Link href="https://harsh-shah.tk">
           <span className="text-blue-400">Harsh Shah</span>
