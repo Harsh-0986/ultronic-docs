@@ -130,6 +130,12 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <footer className="fixed bottom-0">
+        Made with 💛 by{" "}
+        <Link className="text-blue-400" href="https://harsh-shah.tk">
+          Harsh Shah
+        </Link>
+      </footer>
     </div>
   );
 }
