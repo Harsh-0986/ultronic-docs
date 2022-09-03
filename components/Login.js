@@ -26,7 +26,7 @@ function Login() {
         </Button>
       </div>
       <footer className="w-screen flex items-center justify-center fixed bottom-0 ">
-        Made with 💛 by{" "}
+        Made with 💛 by &nbsp
         <Link href="https://harsh-shah.tk">
           <span className="text-blue-400">Harsh Shah</span>
         </Link>
