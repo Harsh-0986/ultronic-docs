@@ -25,8 +25,11 @@ function Login() {
           Log In with Google
         </Button>
       </div>
-      <footer className="fixed bottom-0">
-        Made with 💛 by <Link className="text-blue-400" href="https://harsh-shah.tk">Harsh Shah</Link>
+      <footer className="w-full justify-center fixed bottom-0 ">
+        Made with 💛 by{" "}
+        <Link  href="https://harsh-shah.tk">
+          <span className="text-blue-400">Harsh Shah</span>
+        </Link>
       </footer>
     </>
   );

@@ -13,7 +13,7 @@ import { db } from "../firebase";
 import firebase from "firebase";
 import { useCollectionOnce } from "react-firebase-hooks/firestore";
 import DocumentRow from "../components/DocumentRow";
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Home() {
   const [session] = useSession();
@@ -131,10 +131,10 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <footer className="fixed bottom-0">
+      <footer className="w-full justify-center fixed bottom-0 ">
         Made with 💛 by{" "}
-        <Link className="text-blue-400" href="https://harsh-shah.tk">
-          Harsh Shah
+        <Link href="https://harsh-shah.tk">
+          <span className="text-blue-400">Harsh Shah</span>
         </Link>
       </footer>
     </div>
