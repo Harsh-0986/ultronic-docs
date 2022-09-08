@@ -29,7 +29,7 @@ function Doc() {
   return (
     <>
       <Head>
-        <title>{snapshot?.data()?.fileName}</title>
+        <title>{snapshot?.data()?.fileName} - Ultronic Documents</title>
       </Head>
 
       <div>
