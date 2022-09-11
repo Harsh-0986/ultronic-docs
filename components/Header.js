@@ -50,7 +50,7 @@ function Header() {
       <img
         loading="lazy"
         onClick={signOut}
-        className="cursor-pointer h-12 w-12 rounded-full ml-2 sm:hidden inline"
+        className="cursor-pointer h-12 w-12 rounded-full ml-2 hidden lg:inline"
         src={session?.user?.image}
         // src="https://source.unsplash.com/user/erondu/1600x900"
         alt=""
